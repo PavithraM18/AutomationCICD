@@ -4,14 +4,15 @@
   <listeners>
     <listener class-name="SelfLearning.TestComponents.Listeners"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="ErrorValidations(failed)">
+  <test thread-count="5" parallel="tests" name="SubmitOrderTest(failed)">
     <classes>
-      <class name="SelfLearning.tests.ErrorValidations">
+      <class name="SelfLearning.tests.SubmitOrderTest">
         <methods>
           <include name="launchApplication"/>
-          <include name="LoginErrorValidation"/>
+          <include name="orderHistoryTest"/>
+          <include name="submitOrder" invocation-numbers="0"/>
         </methods>
-      </class> <!-- SelfLearning.tests.ErrorValidations -->
+      </class> <!-- SelfLearning.tests.SubmitOrderTest -->
     </classes>
-  </test> <!-- ErrorValidations(failed) -->
+  </test> <!-- SubmitOrderTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

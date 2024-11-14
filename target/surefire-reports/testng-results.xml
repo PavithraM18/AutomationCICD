@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-23T20:09:09 IST" name="Suite" finished-at="2024-07-23T20:10:53 IST" duration-ms="103983">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidations.LoginErrorValidation()[pri:0, instance:SelfLearning.tests.ErrorValidations@35cabb2a]" name="LoginErrorValidation" class="SelfLearning.tests.ErrorValidations"/>
+      </group> <!-- ErrorHandling -->
+      <group name="purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:SelfLearning.tests.SubmitOrderTest@619713e5]" name="submitOrder" class="SelfLearning.tests.SubmitOrderTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-07-23T20:09:09 IST" name="ErrorValidations" finished-at="2024-07-23T20:10:11 IST" duration-ms="62167">
+      <class name="SelfLearning.tests.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SelfLearning.tests.ErrorValidations@35cabb2a]" started-at="2024-07-23T20:09:09 IST" name="launchApplication" finished-at="2024-07-23T20:09:34 IST" duration-ms="25156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:SelfLearning.tests.ErrorValidations@35cabb2a]" started-at="2024-07-23T20:09:34 IST" name="LoginErrorValidation" finished-at="2024-07-23T20:09:35 IST" duration-ms="1180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SelfLearning.tests.ErrorValidations@35cabb2a]" started-at="2024-07-23T20:09:36 IST" name="launchApplication" finished-at="2024-07-23T20:09:55 IST" duration-ms="19760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:SelfLearning.tests.ErrorValidations@35cabb2a]" started-at="2024-07-23T20:09:55 IST" name="ProductErrorValidation" finished-at="2024-07-23T20:10:11 IST" duration-ms="15807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+      </class> <!-- SelfLearning.tests.ErrorValidations -->
+    </test> <!-- ErrorValidations -->
+    <test started-at="2024-07-23T20:09:09 IST" name="SubmitOrderTest" finished-at="2024-07-23T20:10:53 IST" duration-ms="103983">
+      <class name="SelfLearning.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SelfLearning.tests.SubmitOrderTest@619713e5]" started-at="2024-07-23T20:09:09 IST" name="launchApplication" finished-at="2024-07-23T20:09:34 IST" duration-ms="25394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SelfLearning.tests.SubmitOrderTest@619713e5]" started-at="2024-07-23T20:09:34 IST" name="submitOrder" data-provider="getData" finished-at="2024-07-23T20:09:56 IST" duration-ms="21040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@1234, product=ZARA COAT 3, email=mpavithra18@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SelfLearning.tests.SubmitOrderTest@619713e5]" started-at="2024-07-23T20:09:56 IST" name="launchApplication" finished-at="2024-07-23T20:10:16 IST" duration-ms="20607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SelfLearning.tests.SubmitOrderTest@619713e5]" started-at="2024-07-23T20:10:16 IST" name="submitOrder" data-provider="getData" finished-at="2024-07-23T20:10:37 IST" duration-ms="20639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@1234, product=ADIDAS ORIGINAL, email=mpavithra18@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SelfLearning.tests.SubmitOrderTest@619713e5]" started-at="2024-07-23T20:10:37 IST" name="launchApplication" finished-at="2024-07-23T20:10:51 IST" duration-ms="14648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:SelfLearning.tests.SubmitOrderTest@619713e5]" started-at="2024-07-23T20:10:51 IST" name="orderHistoryTest" finished-at="2024-07-23T20:10:53 IST" depends-on-methods="SelfLearning.tests.SubmitOrderTest.submitOrder" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+      </class> <!-- SelfLearning.tests.SubmitOrderTest -->
+    </test> <!-- SubmitOrderTest -->
+  </suite> <!-- Suite -->
+</testng-results>
